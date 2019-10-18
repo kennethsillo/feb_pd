@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Quiz In IT CO-OP | Home</title>
+  <title>Quiz In IT CO-OP | Login</title>
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
   <link rel="stylesheet" href="resources/styles/style.css">
   <link href="resources/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -45,7 +45,7 @@
   				</div>
   				<div class="mt-4">
   					<div class="d-flex justify-content-center links" style="color:white;">
-  						Don't have an account? <a href="resources/php/register.php" class="ml-2">Sign Up</a>
+  						Don't have an account? <a href="register.php" class="ml-2">Sign Up</a>
   					</div>
   					<div class="d-flex justify-content-center links">
   						<a href="#">Forgot your password?</a>
