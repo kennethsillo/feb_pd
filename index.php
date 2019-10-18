@@ -13,7 +13,7 @@
       <a class="navbar-brand text-light" href="index.php">Quiz In It</a>
         <form class="form-inline">
             <a class="btn btn-primary my-2 my-sm-0" type="submit" href="login.php">Login</a>
-            <a class="btn btn-danger my-2 my-sm-0 ml-2" type="submit" href="register.php">Register</a>
+            <a class="btn btn-danger my-2 my-sm-0 ml-2" type="submit" href="registers.php">Register</a>
         </form>
     </nav>
 
