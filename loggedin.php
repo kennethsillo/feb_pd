@@ -1,3 +1,6 @@
+<?php
+require_once  $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resources/functions/login.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +18,7 @@
     <nav class="navbar navbar-light bg-dark justify-content-between">
       <a class="navbar-brand text-light" href="index.php">Quiz In It</a>
         <form class="form-inline">
-            <a class="nav-link text-light" href="">Welcome:</a>
+            <a class="nav-link text-light"  href="">Welcome:</a>
             <a class="nav-link text-light" href="index.php">Logout</a>
         </form>
     </nav>
