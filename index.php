@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Quiz In IT CO-OP | Home</title>
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/styles/style.css">
   </head>
+  <body>
     <nav class="navbar navbar-light bg-dark justify-content-between">
       <a class="navbar-brand text-light" href="index.php">Quiz In It</a>
         <form class="form-inline">
@@ -15,35 +17,52 @@
         </form>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="col text-center d-none d-md-block">
+                <p class="lead display-sm-4" style="margin-top:-30px;">INTDM Official Merch Collection</p>
+                <a href="#home-heading" class="btn btn-outline-light btn-lg text-white fbtn"><i class="fas fa-shopping-cart"></i> Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="col text-center d-none d-md-block">
+                <p class="lead display-sm-4" style="margin-top:-30px;">INTDM Official Merch Collection</p>
+                <a href="#home-heading" class="btn btn-outline-light btn-lg text-white fbtn"><i class="fas fa-shopping-cart"></i> Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="col text-center d-none d-md-block">
+                <p class="lead display-sm-4" style="margin-top:-30px;">INTDM Official Merch Collection</p>
+                <a href="#home-heading" class="btn btn-outline-light btn-lg text-white fbtn"><i class="fas fa-shopping-cart"></i> Order Now</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev prv">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a href="#myCarousel" data-slide="next" class="carousel-control-next nex">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+    </section>
 
         <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
   <div class="container text-center">
     <small>Copyright &copy; Your Website</small>
   </div>
 </footer>
+  </body>
+</html>
