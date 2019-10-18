@@ -1,3 +1,12 @@
+<?php
+session_start();
+require_once $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resources/functions/login.php';
+if(!empty($_POST)){
+$login = new login($_POST['username'],$_POST['password']);
+$login->logsIn();
+header('location:loggedin.php');
+}
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +35,7 @@
   					</div>
   				</div>
   				<div class="d-flex justify-content-center form_container">
-  					<form>
+  					<form method="POST" action="">
   						<div class="input-group mb-3">
   							<div class="input-group-append">
   								<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -39,16 +48,17 @@
   							</div>
   							<input type="password" name="password" class="form-control input_pass" value="" placeholder="password">
   						</div>
-  					</form>
   				</div>
   				<div class="d-flex justify-content-center mt-3 login_container">
-  					<button type="button" name="button" class="btn login_btn">Login</button>
+  				<input class="btn login_btn" type="submit" value="Login" />
   				</div>
   				<div class="mt-4">
   					<div class="d-flex justify-content-center links" style="color:white;">
-  						Don't have an account? <a href="register.php" class="ml-2">Sign Up</a>
+  						Don't have an account? <a href="registers.php" class="ml-2">Sign Up</a>
   					</div>
   				</div>
+        </form>
+
   			</div>
   		</div>
   	</div>

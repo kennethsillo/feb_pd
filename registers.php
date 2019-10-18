@@ -1,3 +1,14 @@
+<?php
+session_start();
+require_once $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resources/functions/register.php';
+if(!empty($_POST)){
+$register = new register($_POST['username'],$_POST['email'],$_POST['password']);
+$register->register();
+}
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,35 +36,36 @@
   					</div>
   				</div>
   				<div class="d-flex justify-content-center form_container">
-  					<form>
+  					<form method="POST" action="">
   						<div class="input-group mb-2">
   							<div class="input-group-append">
   								<span class="input-group-text"><i class="fas fa-user"></i></span>
   							</div>
-  							<input type="text" name="" class="form-control input_user" value="" placeholder="username">
+  							<input type="text" name="username" class="form-control input_user" value="" placeholder="username">
   						</div>
               <div class="input-group mb-2">
                 <div class="input-group-append">
                   <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                 </div>
-                <input type="input-group-text" name="" class="form-control input_pass" value="" placeholder="email">
+                <input type="input-group-text" name="email" class="form-control input_pass" value="" placeholder="email">
               </div>
   						<div class="input-group mb-2">
   							<div class="input-group-append">
   								<span class="input-group-text"><i class="fas fa-key"></i></span>
   							</div>
-  							<input type="password" name="" class="form-control input_pass" value="" placeholder="password">
+  							<input type="password" name="password" class="form-control input_pass" value="" placeholder="password">
   						</div>
-  					</form>
+
   				</div>
   				<div class="d-flex justify-content-center mt-3 login_container">
-  					<button type="button" name="button" class="btn login_btn">register</button>
+  					<input class="btn login_btn" type="submit" value="Register">
   				</div>
   				<div class="mt-4">
   					<div class="d-flex justify-content-center links" style="color:white;">
   						Have An Account? Click Here To <a href="login.php" class="ml-2">login</a>
   					</div>
   				</div>
+        </form>
   			</div>
   		</div>
   	</div>
