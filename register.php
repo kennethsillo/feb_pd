@@ -36,7 +36,7 @@
                 <div class="input-group-append">
                   <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                 </div>
-                <input type="password" name="" class="form-control input_pass" value="" placeholder="email">
+                <input type="input-group-text" name="" class="form-control input_pass" value="" placeholder="email">
               </div>
   						<div class="input-group mb-2">
   							<div class="input-group-append">
