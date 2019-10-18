@@ -12,8 +12,8 @@
     <nav class="navbar navbar-light bg-dark justify-content-between">
       <a class="navbar-brand text-light" href="index.php">Quiz In It</a>
         <form class="form-inline">
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
-            <button class="btn btn-danger my-2 my-sm-0 ml-2" type="submit">Register</button>
+            <a class="btn btn-primary my-2 my-sm-0" type="submit" href="login.php">Login</a>
+            <a class="btn btn-danger my-2 my-sm-0 ml-2" type="submit" href="register.php">Register</a>
         </form>
     </nav>
 
