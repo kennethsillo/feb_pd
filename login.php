@@ -47,9 +47,6 @@
   					<div class="d-flex justify-content-center links" style="color:white;">
   						Don't have an account? <a href="register.php" class="ml-2">Sign Up</a>
   					</div>
-  					<div class="d-flex justify-content-center links">
-  						<a href="#">Forgot your password?</a>
-  					</div>
   				</div>
   			</div>
   		</div>
